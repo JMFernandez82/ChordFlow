@@ -1,12 +1,24 @@
-# ChordFlow
+<p align="center">
+  <img src="docs/assets/icon.png" alt="ChordFlow" width="120" />
+</p>
 
-ChordFlow is a mobile-first Progressive Web App for building, testing and listening to chord progressions in seconds.
+<h1 align="center">ChordFlow</h1>
 
-It is designed as a harmonic sketchpad for songwriters, producers and musicians who want to explore chord combinations quickly without opening a full DAW or diving into heavy music theory tools.
+<p align="center">
+  A mobile-first Progressive Web App for building, testing and listening to chord progressions in seconds.
+</p>
 
-## Demo
+<p align="center">
+  <a href="https://chordflow-delta.vercel.app">Live Demo</a>
+</p>
 
-Live app: [https://chordflow-delta.vercel.app](https://chordflow-delta.vercel.app)
+<p align="center">
+  <img src="docs/assets/screenshot-mobile.png" alt="ChordFlow on mobile" width="320" />
+</p>
+
+---
+
+ChordFlow is designed as a harmonic sketchpad for songwriters, producers and musicians who want to explore chord combinations quickly without opening a full DAW or diving into heavy music theory tools.
 
 ## What it does
 
