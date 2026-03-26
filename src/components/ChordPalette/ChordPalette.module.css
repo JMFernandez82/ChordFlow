@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.sectionLabel {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.functionGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.functionLabel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.chords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chordChip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 0.6rem;
+  padding: 0.5rem 0.8rem;
+  min-width: 3.5rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  gap: 0.1rem;
+}
+
+.chordChip:hover:not(:disabled) {
+  background: var(--surface-hover);
+  transform: translateY(-1px);
+}
+
+.chordChip:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.chordChip:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.degree {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.name {
+  font-size: 0.95rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.hint {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin: 0;
+  opacity: 0.7;
+}

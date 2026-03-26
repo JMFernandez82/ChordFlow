@@ -1,0 +1,26 @@
+.app {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem env(safe-area-inset-bottom, 0);
+  min-height: 100dvh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.section {
+  background: var(--bg-secondary);
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+}
+
+.timelineSection {
+  background: var(--bg);
+  border: none;
+  padding: 1rem 0;
+}
